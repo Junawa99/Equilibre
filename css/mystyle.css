@@ -1,43 +1,31 @@
 @charset "utf-8";
 .navbar {
+	overflow: auto;
 	position: relative;
-	background-color: #CFBDAF;
 	margin-left: auto;
 	margin-right: auto; 
 	
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	color: #6F4E40;
-	font-size: 25px;
+	color: #000000;
 	
 }
 
-.Home {
-	margin-right: 25px;
-	margin-left: 25px;
+.navbar a { 
+  float: left;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  width: 20%;
+  text-align: center;
 }
 
-.About {
-	margin-right: 25px;
-	margin-left: 25px;
+.navbar a:hover {
+	background-color:#CFBDAF; 
 }
 
-.Mission {
-	margin-right: 25px;
-	margin-left: 25px;
-}
-
-.Product {
-	
-	margin-right: 25px;
-	margin-left: 25px;
-}
-.Justification {
-	margin-right: 25px;
-	margin-left: 25px;
-	
-}
 .logo {
-	width: 500px;
+	width: 300px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -49,7 +37,7 @@
 	border: hidden;
 	margin-right: auto;
 	margin-left: auto;
-	width: 1000px;
+	width: 950px;
 	height: 700px;
 }
 
@@ -75,10 +63,15 @@
 
 .centered {
 	
-	position: absolute;
-	top: 50%;
+	position:absolute;
+	top: 55%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 36px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 24px;
+	padding-left: 10px;
+	padding-right: 10px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
 }
