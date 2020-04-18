@@ -1,4 +1,10 @@
 @charset "utf-8";
+.body, html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
 .navbar {
 	overflow: auto;
 	position: relative;
@@ -32,20 +38,12 @@
 }
 
 .video {
-	
-	display: block;
-	border: hidden;
-	margin-right: auto;
-	margin-left: auto;
-	width: 950px;
-	height: 700px;
-}
-
-.text {
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-bottom: 25px;
-	
+	background-image:url("../images/Video.mp4");
+	max-width: 100%;
+    min-height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .footer {
@@ -54,24 +52,42 @@
 	height: 50px;
 }
 
-.video {
-	
-	position: relative;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.centered {
-	
-	position:absolute;
-	top: 55%;
+.visual .centered {
+	position: absolute;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: #FFFFFF;
-	color: #000000;
-	font-size: 24px;
-	padding-left: 10px;
-	padding-right: 10px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	width: 36%;
+	font-size: 45px;
+	padding: 20px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	
+}
+
+.MainP {
+	display: inline-block;
+	text-align: left;
+	margin: 40px;
+	width: 600px;
+	height: 300px;
+	border: dashed;
+	border-color: #CFBDAF;
+	padding: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.slogan {
+	display: inline-block;
+	text-align: center;
+	border: dashed;
+	border-color: #CFBDAF;
+	width: 600px;
+	height: 300px;
+	margin: 40px;
+	padding: 20px;
+	font-size: 56px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+
 }
