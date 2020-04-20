@@ -82,4 +82,40 @@
 	font-size: 18px;
 	color: #ffffff;
 	padding: 20px;
+
+}
+.about {
+	background-color: #ECE5E0; 
+  margin: auto;
+  width: stretch;
+	height: 200px;
+  border: 3px #BF7F30;
+  padding: 10px;
+  align-content: center;
+font-family: Baskerville;
+}
+.about-heading {
+	font-size: 42px;
+	font-family: Baskerville;
+}
+.about-paragraph {
+	font-style: italic;
+	font-size: 32px;
+	font-family: Baskerville;
+}
+.media {
+	width: 800px;
+	height: 300px;
+	font-family: Baskerville;
+	font-size: 22px;
+	 margin: auto;
+  border: 3px #BF7F30;
+  padding: 10px;
+  align-content: center;
+	
+
+}
+.mt-0 {
+	font-style: italic;
+	font-size: 32px;
 }
