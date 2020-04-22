@@ -94,13 +94,12 @@
 
 .products {
 	margin: 0 auto;
-	width: 950px;
+	width: 600px;
 	padding: 10px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	border-style: solid;
 	border-color: #889977;
 	text-align: center;
-	font-size: 25px;
 	
 }
 
@@ -163,12 +162,51 @@
 	opacity: 1;
 	transform: scale(1);
 }
-
-
-.productinfo-box {
-	background:rgba(211,232,191,1.00);
-	margin: 0;
-	padding: 0;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	
+.about {
+	background-color: #CFBDAF; 
+  margin: auto;
+  width: stretch;
+	height: 200px;
+  border: 3px #BF7F30;
+  padding: 10px;
+  align-content: center;
+font-family: Baskerville;
 }
+
+.about-heading {
+	font-size: 42px;
+	font-family: Baskerville;
+}
+.about-paragraph {
+	font-style: italic;
+	font-size: 32px;
+	font-family: Baskerville;
+}
+.container {
+	max-width: 800px;
+}
+.paragraph {
+	font-size: 18px;
+}
+.mt-0 {
+	font-size: 32px;
+	font-style: italic;
+}
+h2 {
+	font-size: 42px;
+	font-style: italic;
+	text-align: center;
+}
+.card-text {
+	font-size: 16px;
+}
+
+.mb-0 {
+	font-size: 18px;
+}
+.chart {
+	align: center;
+	
+
+}
+
