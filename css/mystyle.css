@@ -293,6 +293,7 @@ h2 {
 	margin-top: -100px;
 	clear: both;
 }
+
 form {
 	max-width: 500px;
 	margin-left: 20px;
@@ -331,14 +332,13 @@ input {
 	width: 600px;
 	height: 350px;
 	padding: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 .done {
-	
 	margin-left: 450px;
 	align-content: center;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	font-size: 18px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
