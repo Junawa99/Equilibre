@@ -312,9 +312,10 @@ input {
 }
 
 .checkout {
-	margin: 70px;
-	align-content: stretch;
-	width: auto;
+	margin-top: 50px;
+	margin-left: 500px;
+	margin-bottom: 50px;
+	align-content:center;
 	
 }
 
@@ -323,4 +324,21 @@ input {
 	margin: 30px;
 	border: dashed;
 	border-color: #6f4e40;
+}
+
+.basket {
+	
+	width: 600px;
+	height: 350px;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+.done {
+	
+	margin-left: 450px;
+	align-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 18px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
