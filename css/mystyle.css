@@ -62,16 +62,21 @@
 }
 
 .HMainP {
-	display: inline-block;
-	text-align: left;
-	margin: 40px;
-	width: 600px;
-	height: 300px;
+	text-align:center;
+	margin: 30px;
+	height: 230px;
 	border: dashed;
 	border-color: #CFBDAF;
 	padding: 20px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
 }
+.Hinfo {
+	text-align: center;
+	margin: 70px;
+}
+
+
 .Hbox {
 	float: left;
 }
@@ -83,7 +88,7 @@
 }
 .Htextright {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	margin-left: 40px;
+	margin: 40px;
 	width: 600px;
 	height: 350px;
 }
@@ -105,20 +110,18 @@
 }
 
 .HflowerImg {
-	margin-left: 40px;
-	margin-bottom: 40px;
+	margin: 40px;
 }
 
 .Htextleft {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	margin-right: 40px;
+	margin: 40px;
 	width: 600px;
 	height: 350px;
 }
 
 .HnatureImg {
-	margin-right: 40px;
-	margin-bottom: 40px;
+	margin: 40px;
 }
 
 .product-title {
@@ -245,21 +248,82 @@ h2 {
 	font-size: 18px;
 	
 }
-.chart {
-	align: center;
-	
 
+.Shop {
+	width: 1170px;
 }
 
-.footer {
+.Sprodpic {
+	
+	margin: 100px;
+	float: left;
+}
+
+.Sproddesc {
+	margin-top: 100px;
+	float: left;
+	margin: 70px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.pay a {
+	margin-top: 50px;
+	margin-left: 70px;
+	 float: left;
+  padding: 20px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	border: dashed;
+	border-color: #6f4e40;
+}
+
+#footer {
 	display: block;
 	background-color: #6F4E40;
-	height: 60px;
+	height: 100px;
 	text-align: center;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-size: 18px;
 	color: #ffffff;
 	padding: 20px;
+	position: relative;
+	margin-top: -100px;
+	clear: both;
+}
+form {
+	max-width: 500px;
+	margin-left: 20px;
+}
+input {
+	font-style: oblique;
+}
+.contact {
+	margin: 0 auto;
+	width: 400px;
+	padding: 10px;
+	border-style: solid;
+	border-color: #E2A354;
+	text-align: center;
+	font-size: 18px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.checkout {
+	margin-top: 50px;
+	margin-left: 500px;
+	margin-bottom: 50px;
+	align-content:center;
+	
+}
+
+.btn {
+	float: right;
+	margin: 30px;
+	border: dashed;
+	border-color: #6f4e40;
 }
 .mission {
 	background-color: #DFD4AB; 
@@ -345,3 +409,21 @@ margin: 0 auto;
 .vision-picture {
     margin-right: 210px;
 }
+
+.basket {
+	
+	width: 600px;
+	height: 350px;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+.done {
+	
+	margin-left: 450px;
+	align-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 18px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
