@@ -62,16 +62,21 @@
 }
 
 .HMainP {
-	display: inline-block;
-	text-align: left;
-	margin: 40px;
-	width: 600px;
-	height: 300px;
+	text-align:center;
+	margin: 30px;
+	height: 230px;
 	border: dashed;
 	border-color: #CFBDAF;
 	padding: 20px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
 }
+.Hinfo {
+	text-align: center;
+	margin: 70px;
+}
+
+
 .Hbox {
 	float: left;
 }
@@ -83,7 +88,7 @@
 }
 .Htextright {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	margin-left: 40px;
+	margin: 40px;
 	width: 600px;
 	height: 350px;
 }
@@ -105,20 +110,18 @@
 }
 
 .HflowerImg {
-	margin-left: 40px;
-	margin-bottom: 40px;
+	margin: 40px;
 }
 
 .Htextleft {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	margin-right: 40px;
+	margin: 40px;
 	width: 600px;
 	height: 350px;
 }
 
 .HnatureImg {
-	margin-right: 40px;
-	margin-bottom: 40px;
+	margin: 40px;
 }
 
 .product-title {
@@ -246,15 +249,18 @@ h2 {
 	
 }
 
-.footer {
+#footer {
 	display: block;
 	background-color: #6F4E40;
-	height: 60px;
+	height: 100px;
 	text-align: center;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-size: 18px;
 	color: #ffffff;
 	padding: 20px;
+	position: relative;
+	margin-top: -100px;
+	clear: both;
 }
 form {
 	max-width: 500px;
