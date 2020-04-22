@@ -416,13 +416,23 @@ margin: 0 auto;
 	width: 600px;
 	height: 350px;
 	padding: 30px;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 .done {
 	margin-left: 450px;
 	align-content: center;
 	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 18px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.homepage {
+	float: left;
+	margin-left: 650px;
+	margin-bottom: 40px;
+	padding: 10px;
+	border: dashed;
+	border-color: #cfbdaf;
+	color: #000000;
 }
