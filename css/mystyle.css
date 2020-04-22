@@ -288,52 +288,50 @@ h2 {
 }
 	
 .colorfu-box-info {
-	background:#CFBDAF;
-	height: 500px;
+    background: #CFBDAF;
+    height: 100%;
 	
 }
 .textmint {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	text-align: center;
-	font-size: 25px;
-	margin-right: 50px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    text-align: center;
+    font-size: 25px;
+    margin-right: 0px;
 	
 }
 .mintinfo {
-	margin-left: 250px;
-	margin-right: 600px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	width: 500px;
-}
-
-.imgminttt {
-	margin-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 500px;
 }
 
 .colorfu-box-info2 {
-	background:rgba(255,243,186,1.00);
-	height: 500px;
+    background: rgba(255,243,186,1.00);
+    height: 100%;
 	
 }
 .textmint2 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	text-align: center;
-	font-size: 25px;
-	margin-left: 50px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    text-align: center;
+    font-size: 25px;
+    margin-left: 46px;
 	
 }
 .mintinfo2 {
-	margin-left: 1400px;
-	margin-right: 250px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	width: 500px;
+    margin-left: 2px;
+    margin-right: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 500px;
+    text-align: left;
 	
 }
+.colorfu-box-info2.container-fluid .textmint2 .imgminttt2 {
+}
+
 
 .imgminttt2 {
-	margin-left: 300px;
+    margin-left: 2px;
 
 
 }
@@ -352,8 +350,8 @@ h2 {
 }
 	
 .colorfu-box-info3 {
-	background:rgba(211,232,191,1.00);
-	height: 500px;
+    background: rgba(211,232,191,1.00);
+    height: 100%;
 	
 }
 .textmint3 {
@@ -364,16 +362,20 @@ h2 {
 	
 }
 .mintinfo3 {
-	margin-left: 250px;
-	margin-right: 600px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 500px;
+    text-align: left;
 }
 
 .imgminttt3 {
-	margin-right: 300px;
+    margin-left: 75px;
+
 }	
+
+.imgminttt {
+
+}
 	#footer {
 	display: block;
 	background-color: #6F4E40;
