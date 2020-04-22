@@ -245,11 +245,6 @@ h2 {
 	font-size: 18px;
 	
 }
-.chart {
-	align: center;
-	
-
-}
 
 .footer {
 	display: block;
@@ -260,5 +255,22 @@ h2 {
 	font-size: 18px;
 	color: #ffffff;
 	padding: 20px;
+}
+form {
+	max-width: 500px;
+	margin-left: 20px;
+}
+input {
+	font-style: oblique;
+}
+.contact {
+	margin: 0 auto;
+	width: 400px;
+	padding: 10px;
+	border-style: solid;
+	border-color: #E2A354;
+	text-align: center;
+	font-size: 18px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
 
