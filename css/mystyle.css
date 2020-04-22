@@ -133,14 +133,13 @@
 }
 
 .products {
-	margin: 0 auto;
-	width: 900px;
-	padding: 10px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	border-style: solid;
-	border-color: #889977;
-	text-align: center;
-	font-size: 25px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    border-style: solid;
+    border-color: #889977;
+    text-align: center;
+    font-size: 25px;
 }
 
 .product-grid {
