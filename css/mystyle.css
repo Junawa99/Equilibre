@@ -311,3 +311,16 @@ input {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
 
+.checkout {
+	margin: 70px;
+	align-content: stretch;
+	width: auto;
+	
+}
+
+.btn {
+	float: right;
+	margin: 30px;
+	border: dashed;
+	border-color: #6f4e40;
+}
