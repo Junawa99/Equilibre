@@ -163,7 +163,7 @@
 	transform: scale(1);
 }
 .about {
-	background-color: #ECE5E0; 
+	background-color: #CFBDAF; 
   margin: auto;
   width: stretch;
 	height: 200px;
@@ -200,3 +200,13 @@ h2 {
 .card-text {
 	font-size: 16px;
 }
+
+.mb-0 {
+	font-size: 18px;
+}
+.chart {
+	align: center;
+	
+
+}
+
