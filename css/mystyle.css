@@ -63,12 +63,13 @@
 
 .HMainP {
 	text-align:center;
-	margin: 40px;
-	height: 200px;
+	margin: 30px;
+	height: 230px;
 	border: dashed;
 	border-color: #CFBDAF;
 	padding: 20px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
 }
 .Hbox {
 	float: left;
@@ -247,13 +248,17 @@ h2 {
 
 }
 
-.Hfooter {
+#footer {
 	display: block;
 	background-color: #6F4E40;
-	height: 60px;
+	height: 100px;
 	text-align: center;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-size: 18px;
 	color: #ffffff;
+	padding: 20px;
+	position: relative;
+	margin-top: -100px;
+	clear: both;
 }
 
