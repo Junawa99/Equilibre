@@ -89,24 +89,23 @@
 	margin: 0 auto;
 	text-align: center;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	padding: 20px;
+	padding: 10px;
 }
 
 .products {
 	margin: 0 auto;
-	width: 600px;
+	width: 900px;
 	padding: 10px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	border-style: solid;
 	border-color: #889977;
 	text-align: center;
-	
+	font-size: 25px;
 }
 
 .product-grid {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	position: relative;
-	
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    /* [disabled]position: relative; */	
 }
 .product-grid .product-image{
 	overflow: hidden;
@@ -161,6 +160,14 @@
 .product-grid:hover .product-image .pic2{
 	opacity: 1;
 	transform: scale(1);
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .about {
 	background-color: #CFBDAF; 
@@ -210,3 +217,92 @@ h2 {
 
 }
 
+	
+.colorfu-box-info {
+	background:#CFBDAF;
+	height: 500px;
+	
+}
+.textmint {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-size: 25px;
+	margin-right: 50px;
+	
+}
+.mintinfo {
+	margin-left: 250px;
+	margin-right: 600px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 500px;
+}
+
+.imgminttt {
+	margin-right: 300px;
+}
+
+.colorfu-box-info2 {
+	background:rgba(255,243,186,1.00);
+	height: 500px;
+	
+}
+.textmint2 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-size: 25px;
+	margin-left: 50px;
+	
+}
+.mintinfo2 {
+	margin-left: 1400px;
+	margin-right: 250px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 500px;
+	
+}
+
+.imgminttt2 {
+	margin-left: 300px;
+
+
+}
+.sustainable {
+	margin: 0 auto;
+	width: 900px;
+	padding: 10px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border-style: solid;
+	border-color: #889977;
+	text-align: center;
+	font-size: 25px;
+}
+.boxes-heading {
+	text-decoration: underline;
+}
+	
+.colorfu-box-info3 {
+	background:rgba(211,232,191,1.00);
+	height: 500px;
+	
+}
+.textmint3 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-size: 25px;
+	margin-right: 50px;
+	
+}
+.mintinfo3 {
+	margin-left: 250px;
+	margin-right: 600px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 500px;
+}
+
+.imgminttt3 {
+	margin-right: 300px;
+}	
+	
