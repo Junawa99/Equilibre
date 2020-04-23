@@ -407,7 +407,7 @@ input {
 .checkout {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	margin-left: 100px;
+	margin-left: 70px;
 	align-content:center;
 	
 }
@@ -509,7 +509,7 @@ margin: 0 auto;
 	margin-bottom: 20px;
 }
 .done {
-	margin-left: 450px;
+	margin-left: 20px;
 	align-content: center;
 	margin-top: 50px;
 	margin-bottom: 10px;
@@ -519,8 +519,7 @@ margin: 0 auto;
 
 .homepage {
 	float: left;
-	margin-left: 650px;
-	margin-bottom: 40px;
+	margin-bottom: 100px;
 	padding: 10px;
 	border: dashed;
 	border-color: #cfbdaf;
@@ -535,4 +534,8 @@ margin: 0 auto;
 .productShopImg {
     max-width: 100%;
 
+}
+.backtohome-btn {
+	display: flex;
+	justify-content: flex-end;
 }
