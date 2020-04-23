@@ -64,7 +64,7 @@
 .HMainP {
 	text-align:center;
 	margin: 30px;
-	height: 230px;
+	height: 95%;
 	border: dashed;
 	border-color: #CFBDAF;
 	padding: 20px;
@@ -133,14 +133,12 @@
 }
 
 .products {
-	margin: 0 auto;
-	width: 900px;
-	padding: 10px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	border-style: solid;
-	border-color: #889977;
-	text-align: center;
-	font-size: 25px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    
+    text-align: center;
+    font-size: 23px;
 }
 
 .product-grid {
@@ -257,20 +255,18 @@ h2 {
 }
 
 .Shop {
-	width: 1170px;
+
 }
 
 .Sprodpic {
-	
-	margin: 100px;
-	float: left;
+    margin: 0px;
+    float: left;
 }
 
 .Sproddesc {
-	margin-top: 100px;
-	float: left;
-	margin: 70px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    float: left;
+    margin: 0px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
 .pay a {
@@ -288,52 +284,50 @@ h2 {
 }
 	
 .colorfu-box-info {
-	background:#CFBDAF;
-	height: 500px;
+    background: #CFBDAF;
+    height: 100%;
 	
 }
 .textmint {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	text-align: center;
-	font-size: 25px;
-	margin-right: 50px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    text-align: center;
+    font-size: 25px;
+    margin-right: 0px;
 	
 }
 .mintinfo {
-	margin-left: 250px;
-	margin-right: 600px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	width: 500px;
-}
-
-.imgminttt {
-	margin-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 500px;
 }
 
 .colorfu-box-info2 {
-	background:rgba(255,243,186,1.00);
-	height: 500px;
+    background: rgba(255,243,186,1.00);
+    height: 100%;
 	
 }
 .textmint2 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	text-align: center;
-	font-size: 25px;
-	margin-left: 50px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    text-align: center;
+    font-size: 25px;
+    margin-left: 46px;
 	
 }
 .mintinfo2 {
-	margin-left: 1400px;
-	margin-right: 250px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	width: 500px;
+    margin-left: 2px;
+    margin-right: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 500px;
+    text-align: left;
 	
 }
+.colorfu-box-info2.container-fluid .textmint2 .imgminttt2 {
+}
+
 
 .imgminttt2 {
-	margin-left: 300px;
+    margin-left: 2px;
 
 
 }
@@ -345,15 +339,15 @@ h2 {
 	border-style: solid;
 	border-color: #889977;
 	text-align: center;
-	font-size: 25px;
+	font-size: 20px;
 }
 .boxes-heading {
 	text-decoration: underline;
 }
 	
 .colorfu-box-info3 {
-	background:rgba(211,232,191,1.00);
-	height: 500px;
+    background: rgba(211,232,191,1.00);
+    height: 100%;
 	
 }
 .textmint3 {
@@ -364,17 +358,21 @@ h2 {
 	
 }
 .mintinfo3 {
-	margin-left: 250px;
-	margin-right: 600px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 500px;
+    text-align: left;
 }
 
 .imgminttt3 {
-	margin-right: 300px;
+    margin-left: 75px;
+
 }	
-	#footer {
+
+.imgminttt {
+
+}
+#footer {
 	display: block;
 	background-color: #6F4E40;
 	height: 100px;
@@ -408,8 +406,8 @@ input {
 
 .checkout {
 	margin-top: 50px;
-	margin-left: 500px;
 	margin-bottom: 50px;
+	margin-left: 100px;
 	align-content:center;
 	
 }
@@ -527,5 +525,14 @@ margin: 0 auto;
 	border: dashed;
 	border-color: #cfbdaf;
 	color: #000000;
+
 }bo {
+}
+.btn {
+	background-color: #DFD4AB;
+	
+}
+.productShopImg {
+    max-width: 100%;
+
 }
