@@ -255,20 +255,18 @@ h2 {
 }
 
 .Shop {
-	width: 1170px;
+
 }
 
 .Sprodpic {
-	
-	margin: 100px;
-	float: left;
+    margin: 0px;
+    float: left;
 }
 
 .Sproddesc {
-	margin-top: 100px;
-	float: left;
-	margin: 70px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    float: left;
+    margin: 0px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
 .pay a {
@@ -374,7 +372,7 @@ h2 {
 .imgminttt {
 
 }
-	#footer {
+#footer {
 	display: block;
 	background-color: #6F4E40;
 	height: 100px;
@@ -534,5 +532,6 @@ margin: 0 auto;
 	background-color: #DFD4AB;
 	
 }
-
-
+.productShopImg {
+    max-width: 100%;
+}
