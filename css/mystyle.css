@@ -136,10 +136,9 @@
     margin: 0 auto;
     padding: 10px;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-    border-style: solid;
-    border-color: #889977;
+    
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .product-grid {
@@ -342,7 +341,7 @@ h2 {
 	border-style: solid;
 	border-color: #889977;
 	text-align: center;
-	font-size: 25px;
+	font-size: 20px;
 }
 .boxes-heading {
 	text-decoration: underline;
