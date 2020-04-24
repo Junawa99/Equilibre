@@ -509,24 +509,11 @@ margin: 0 auto;
 }
 
 .done {
-<<<<<<< HEAD
-<<<<<<< HEAD
 margin: auto;
 max-width: 800px;
 padding: 10px;
 align-content: center;
 	}
-=======
-=======
->>>>>>> 116c381fa600f44695a707877205615f0d3bdce1
-	margin-left: 50px;
-	align-content: center;
-	margin-top: 50px;
-	margin-bottom: 10px;
-	font-size: 18px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-}
->>>>>>> 116c381fa600f44695a707877205615f0d3bdce1
 
 .homepage {
 	float: left;
