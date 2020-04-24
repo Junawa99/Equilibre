@@ -471,7 +471,25 @@ font-family: Baskerville;
 .justification-heading {
 	font-size: 39px;
 	font-family: Baskerville;
+	
 }
+.shop {
+	background-color: #CFBDAF; 
+  margin: auto;
+  width: stretch;
+	height: 50px;
+  border: 3px #BF7F30;
+  padding: 1px;
+  align-content: center;
+font-family: Baskerville; 
+
+	
+}
+.shop-heading {
+	font-size: 39px;
+	font-family: Baskerville;
+}
+
 .paragraph2 {
     font-size: 20px;
     text-align: left;
